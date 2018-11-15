@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/dxExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/dxExample/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/dxExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/dxExample/MainWindow.xaml))
+* [SampleDataRow.cs](./CS/dxExample/SampleDataRow.cs) (VB: [SampleDataRow.vb](./VB/dxExample/SampleDataRow.vb))
+* [VerticalGridControl.cs](./CS/dxExample/VGrid/VerticalGridControl.cs) (VB: [VerticalGridControlResources.xaml](./VB/dxExample/VGrid/VerticalGridControlResources.xaml))
+* [VerticalGridControlResources.xaml](./CS/dxExample/VGrid/VerticalGridControlResources.xaml) (VB: [VerticalGridControlResources.xaml](./VB/dxExample/VGrid/VerticalGridControlResources.xaml))
+<!-- default file list end -->
 # How to create a custom GridControl that represents columns horizontally in a way similar to the WinForms VerticalGrid control
 
 
