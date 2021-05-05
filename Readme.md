@@ -9,10 +9,10 @@
 <!-- default file list end -->
 # How to create a custom GridControl that represents columns horizontally in a way similar to the WinForms VerticalGrid control
 
+This example demonstrates how to create a `GridControl` class descendant with horizontally oriented columns. Please note that this functionality is not available out of the box, so we used [unbound columns](https://docs.devexpress.com/WPF/6124/controls-and-libraries/data-grid/grid-view-data-layout/columns-and-card-fields/unbound-columns) to get/set cell values and customized row appearance (see: [T361488](https://www.devexpress.com/Support/Center/p/T361488.aspx)).
 
-<p>This example demonstrates how to create a GridControl descendant with horizontally oriented columns.</p><p>To use it, simply add the VerticalGridControl.xaml and VerticalGridControl.xaml.cs files in your project.<br />
-</p><p>In addition, this example demonstrates how to customize grid cells using data templates.</p>
+Before using this custom solution in your real application, please check if you can use one of the following solutions instead:
 
-<br/>
-
+1. Change the structure of your `ItemsSource` collection so that you can use the regular`GridControl`.
+2. If you wish to show properties of a single object, use the [Property Grid](https://docs.devexpress.com/WPF/15640/controls-and-libraries/property-grid).
 
