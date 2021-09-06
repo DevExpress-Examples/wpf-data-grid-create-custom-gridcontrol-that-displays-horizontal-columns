@@ -1,5 +1,5 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dxExample", "dxExample\dxExample.csproj", "{740FD4CE-3CB7-4B5E-A41B-06F370FBE89A}"
 EndProject
 Global
